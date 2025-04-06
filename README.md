@@ -4,7 +4,7 @@ Welcome to Portfolio Galaxy – a creative space-themed animated personal portfo
 Explore my universe of skills, projects, and creativity ✨🚀
 🔭 Features
 🌌 Galaxy background with floating animations
-🚀 Rocket animation and scroll effects
+🚀 Rocket animation and scroll effect
 💫 Particle cursor trail
 💡 Sections: About, Projects, Contact
 📱 Responsive & smooth UI
