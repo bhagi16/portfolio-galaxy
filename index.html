@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Galaxy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 class="title" data-aos="fade-up">Welcome to My Galaxy</h1>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="300">I’m Bhargavi, a CSE student exploring the tech universe!</p>
+    <div class="rocket"></div>
+  </header>
+
+  <section class="about" id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>I'm a tech enthusiast skilled in Python, Java, HTML, CSS, and more!</p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="project-card" data-aos="zoom-in">
+      <h3>Weather App</h3>
+      <p>Live weather forecast using API keys.</p>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+      <h3>Women Safety Lens</h3>
+      <p>AR smart lens + mobile app for real-time safety tracking.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-aos="fade-left">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Bhargavi veera" required>
+      <input type="email" placeholder="veerabhargavi89@gmail.com" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bhargavi's Galaxy</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
